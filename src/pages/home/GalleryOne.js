@@ -1,14 +1,14 @@
 "use client";
 
-import { Link } from 'react-router-dom';
-import GalleryImg1 from '../../assets/images/gallery/gallery-1-1.jpg';
-import GalleryImg2 from '../../assets/images/gallery/gallery-1-2.jpg';
-import GalleryImg3 from '../../assets/images/gallery/gallery-1-3.jpg';
-import GalleryImg4 from '../../assets/images/gallery/gallery-1-4.jpg';
-import GalleryImg5 from '../../assets/images/gallery/gallery-1-5.jpg';
-import GalleryImg6 from '../../assets/images/gallery/gallery-1-6.jpg';
-import GalleryImg7 from '../../assets/images/gallery/gallery-1-7.jpg';
-import GalleryImg9 from '../../assets/images/gallery/gallery-1-9.jpg';
+import { Link } from "react-router-dom";
+import GalleryImg1 from "../../assets/images/gallery/suraj.jpeg";
+import GalleryImg2 from "../../assets/images/gallery/sarayu-mohan-45611.jpg";
+import GalleryImg3 from "../../assets/images/gallery/nipin.jpeg";
+import GalleryImg4 from "../../assets/images/gallery/images.jpeg";
+import GalleryImg5 from "../../assets/images/gallery/BabyJean2.jpg";
+import GalleryImg6 from "../../assets/images/gallery/gallery-1-6.jpg";
+import GalleryImg7 from "../../assets/images/gallery/gallery-1-7.jpg";
+import GalleryImg9 from "../../assets/images/gallery/gallery-1-9.jpg";
 
 const galleryItems = [
   {
@@ -70,17 +70,18 @@ const galleryItems = [
 ];
 
 export default function GalleryOne() {
-  
-
   return (
     <section className="gallery-one">
       <div className="container">
         <div className="section-title text-center">
           <div className="section-title__tagline-box">
-            <span className="section-title__tagline">Latest Gallery</span>
+            <span className="section-title__tagline">
+              Star Performers of Uyire
+            </span>
           </div>
           <h2 className="section-title__title">
-            An evening for creator & art <br /> lover meet together
+            An unforgettable lineup of music legends <br /> and crowd-favorite
+            entertainers.
           </h2>
         </div>
         <div className="row masonary-layout">

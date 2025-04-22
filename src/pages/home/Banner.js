@@ -68,15 +68,22 @@ export default function Banner() {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="main-slider__content">
-                      <p className="main-slider__sub-title">Music Festival</p>
+                      <p className="main-slider__sub-title">
+                        Two Days. Unlimited Music. Unforgettable Memories.
+                      </p>
                       <h2 className="main-slider__title">
-                        Discover a World <br /> <span>of Celebration</span>
+                        Uyire Musical
+                        <br /> <span>Event 2025</span>
                       </h2>
                       <p className="main-slider__text">
-                        As an AI language model, I don't have personal opinions
-                        or points of view. However, I <br /> can tell you that
-                        design is a multifaceted field that encompasses various
-                        elements.
+                        Uyire Musical Event 2025 is not just a concert — it's a
+                        celebration of sound, <br />
+                        energy, and unforgettable vibes. Over two days, enjoy
+                        live music from top <br />
+                        singers, DJs, and celebrities. Whether you're with
+                        friends or family, <br />
+                        this event promises non-stop entertainment and lasting
+                        memories.
                       </p>
                       <ul className="list-unstyled main-slider__address">
                         <li>
@@ -131,15 +138,22 @@ export default function Banner() {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="main-slider__content">
-                      <p className="main-slider__sub-title">Music Festival</p>
+                      <p className="main-slider__sub-title">
+                        Two Days. Unlimited Music. Unforgettable Memories.
+                      </p>
                       <h2 className="main-slider__title">
-                        Discover a World <br /> <span>of Celebration</span>
+                        Uyire Musical
+                        <br /> <span>Event 2025</span>
                       </h2>
                       <p className="main-slider__text">
-                        As an AI language model, I don't have personal opinions
-                        or points of view. However, I <br /> can tell you that
-                        design is a multifaceted field that encompasses various
-                        elements.
+                        Uyire Musical Event 2025 is not just a concert — it's a
+                        celebration of sound, <br />
+                        energy, and unforgettable vibes. Over two days, enjoy
+                        live music from top <br />
+                        singers, DJs, and celebrities. Whether you're with
+                        friends or family, <br />
+                        this event promises non-stop entertainment and lasting
+                        memories.
                       </p>
                       <ul className="list-unstyled main-slider__address">
                         <li>
@@ -194,15 +208,22 @@ export default function Banner() {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="main-slider__content">
-                      <p className="main-slider__sub-title">Music Festival</p>
+                      <p className="main-slider__sub-title">
+                        Two Days. Unlimited Music. Unforgettable Memories.
+                      </p>
                       <h2 className="main-slider__title">
-                        Discover a World <br /> <span>of Celebration</span>
+                        Uyire Musical
+                        <br /> <span>Event 2025</span>
                       </h2>
                       <p className="main-slider__text">
-                        As an AI language model, I don't have personal opinions
-                        or points of view. However, I <br /> can tell you that
-                        design is a multifaceted field that encompasses various
-                        elements.
+                        Uyire Musical Event 2025 is not just a concert — it's a
+                        celebration of sound, <br />
+                        energy, and unforgettable vibes. Over two days, enjoy
+                        live music from top <br />
+                        singers, DJs, and celebrities. Whether you're with
+                        friends or family, <br />
+                        this event promises non-stop entertainment and lasting
+                        memories.
                       </p>
                       <ul className="list-unstyled main-slider__address">
                         <li>

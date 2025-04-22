@@ -1,14 +1,14 @@
 "use client"; // Ensures the component runs on the client side
 
 import { useState } from "react";
-import { Link } from 'react-router-dom';
-import eventImg from '../../assets/images/resources/event-one-img-1.jpg';
+import { Link } from "react-router-dom";
+import eventImg from "../../assets/images/resources/event-one-img-1.jpg";
 
 export default function EventOne() {
   // State for dynamic content
   const [eventContent] = useState({
-    sectionTagline: "About Our Event",
-    sectionTitle: "Uniting Creating of the Memories",
+    sectionTagline: "About Uyire Musical Event",
+    sectionTitle: "United by Music, Lasting Memories",
     buttonText: "Join The Event",
     buttonLink: "/event-details",
     points: [
@@ -17,7 +17,7 @@ export default function EventOne() {
         iconClass: "icon-air-horn",
         title: "Artists & bands",
         description:
-          "Events bring people together for a shared experience celebration. From weddings and birthdays to conferences.",
+          "Uyire brings together top artists, singers, and DJs to create an unforgettable experience. From electrifying performances to soulful melodies, this is a celebration for music love",
         link: "/event",
       },
       {
@@ -25,7 +25,7 @@ export default function EventOne() {
         iconClass: "icon-party-blower",
         title: "Audience Event Planner",
         description:
-          "Events bring people together for a shared experience celebration. From weddings and birthdays to conferences.",
+          "Uyire is designed to bring people together for an unparalleled experience. Whether you're a music enthusiast or just looking for a weekend escape, this event promises something for everyone",
         link: "/event",
       },
     ],
@@ -37,10 +37,7 @@ export default function EventOne() {
       {/* Event One Start */}
       <section id="th-about" className="event-one">
         <div className="container">
-          <div
-            className="event-one__inner wow fadeInUp"
-            data-wow-delay="300ms"
-          >
+          <div className="event-one__inner wow fadeInUp" data-wow-delay="300ms">
             <div className="event-one__top">
               <div className="section-title text-left">
                 <div className="section-title__tagline-box">
@@ -53,7 +50,10 @@ export default function EventOne() {
                 </h2>
               </div>
               <div className="event-one__btn-box">
-                <Link to={eventContent.buttonLink} className="event-one__btn thm-btn">
+                <Link
+                  to={eventContent.buttonLink}
+                  className="event-one__btn thm-btn"
+                >
                   {eventContent.buttonText}
                   <span className="icon-arrow-right"></span>
                 </Link>

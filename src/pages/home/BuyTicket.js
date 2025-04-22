@@ -1,20 +1,30 @@
 "use client"; // Ensures the component runs on the client side
 
 import { useState } from "react";
-import { Link } from 'react-router-dom';
-import ticketImg from '../../assets/images/resources/buy-ticket-img.jpg';
+import { Link } from "react-router-dom";
+import ticketImg from "../../assets/images/resources/buy-ticket-img.jpg";
 
 export default function BuyTicket() {
   // State for dynamic content
   const [ticketContent] = useState({
     address: "Mirpur 01 Road N 12 Dhaka Bangladesh",
     timing: "10 Am To 10 Pm 20 April 2024",
-    title: "Grab Your Seat Now Or You May Regret it Once",
+    title: "Grab Your Seat Now , Don’t Miss the Magic",
     description:
-      "Events bring people together for a shared experience celebration. From weddings and birthdays to conferences, events bring people together for a shared purpose.",
+      "Uyire brings music lovers together for two unforgettable days of live performances, energy, and celebration. Be part of the vibe — before it's too late!",
     buttons: [
-      { id: 1, text: "Buy Your Ticket", link: "/contact", class: "buy-ticket__btn-1" },
-      { id: 2, text: "Contact Us", link: "/contact", class: "buy-ticket__btn-2" },
+      {
+        id: 1,
+        text: "Buy Your Ticket",
+        link: "/contact",
+        class: "buy-ticket__btn-1",
+      },
+      {
+        id: 2,
+        text: "Contact Us",
+        link: "/contact",
+        class: "buy-ticket__btn-2",
+      },
     ],
   });
 
