@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import eventImg from "../../assets/images/resources/event-one-img-1.jpg";
+import eventImg from "../../assets/images/resources/logo1.png";
 
 export default function EventOne() {
   // State for dynamic content
