@@ -176,7 +176,7 @@ const Footer = () => {
           <div className="container">
             <div className="site-footer__bottom-inner">
               <p className="site-footer__bottom-text">
-                © EventFlow 2024 | All Rights Reserved
+                © Uyire 2025 | All Rights Reserved
               </p>
               <ul className="list-unstyled site-footer__bottom-menu">
                 <li>
