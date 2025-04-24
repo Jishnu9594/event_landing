@@ -67,14 +67,11 @@ const ScheduleOne = () => {
                   <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
-                        <Link to="/event-details">
-                          Events That Leave a <br />
-                          Impression
-                        </Link>
+                        <Link to="/event-details">Diamond</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        A personal portfolio is a curated collection of <br />{" "}
-                        an individual's professional work
+                        ₹9,999 /-
+                        <br /> Entry for 4 people, VIP seating, premium access
                       </p>
                     </div>
                     <div className="schedule-one__img">
@@ -118,14 +115,56 @@ const ScheduleOne = () => {
                   <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
-                        <Link to="/event-details">
-                          Sparkle & Shine on <br />
-                          Celebrations
-                        </Link>
+                        <Link to="/event-details">Gold</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        A personal portfolio is a curated collection of <br />{" "}
-                        an individual's professional work
+                        ₹3,999 /- <br /> Entry for 4 people, standard seating
+                      </p>
+                    </div>
+                    <div className="schedule-one__img">
+                      <img src={scheduleImg2} alt="" />
+                    </div>
+                    <div className="schedule-one__address-and-btn-box">
+                      <ul className="list-unstyled schedule-one__address">
+                        <li>
+                          <div className="icon">
+                            <span className="icon-clock"></span>
+                          </div>
+                          <div className="text">
+                            <p>
+                              10 Am To 10 Pm <br /> 20 April 2024
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="icon">
+                            <span className="icon-pin"></span>
+                          </div>
+                          <div className="text">
+                            <p>
+                              Mirpur 01 Road N 12 Dhaka <br /> Bangladesh
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                      <div className="schedule-one__btn-box">
+                        <Link
+                          to="/contact"
+                          className="schedule-one__btn thm-btn"
+                        >
+                          Buy Ticket
+                          <span className="icon-arrow-right"></span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="schedule-one__single">
+                    <div className="schedule-one__left">
+                      <h3 className="schedule-one__title">
+                        <Link to="/event-details">Platinum</Link>
+                      </h3>
+                      <p className="schedule-one__text">
+                        ₹1,999 /- <br /> Entry for 4 people, standard seating
                       </p>
                     </div>
                     <div className="schedule-one__img">
@@ -169,13 +208,10 @@ const ScheduleOne = () => {
                   <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
-                        <Link to="/event-details">
-                          Sparkle & Shine <br /> Events
-                        </Link>
+                        <Link to="/event-details">Silver</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        A personal portfolio is a curated collection of <br />{" "}
-                        an individual's professional work
+                        999 /- <br /> Entry for 2 people, general admission
                       </p>
                     </div>
                     <div className="schedule-one__img">
@@ -217,6 +253,10 @@ const ScheduleOne = () => {
                   </div>
                 </div>
               </div>
+              <p>
+                Note: Children below 4 years can enter free of charge with a
+                valid guardian ticket.
+              </p>
 
               <div
                 className={`tab ${activeTab === "2nd-day" ? "active-tab" : ""}`}

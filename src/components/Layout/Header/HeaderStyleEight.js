@@ -47,7 +47,9 @@ const HeaderStyleEight = (props) => {
             <div className="main-menu__wrapper-inner">
               <div className="main-menu__left">
                 <div className="main-menu__logo">
-                  <Link to="/">{/* <img src={navLogo} alt="Logo" /> */}</Link>
+                  <Link to="/">
+                    <img src={navLogo} alt="Logo" />
+                  </Link>
                 </div>
               </div>
               <div className="main-menu__main-menu-box">
