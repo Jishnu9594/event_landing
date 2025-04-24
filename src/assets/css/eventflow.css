@@ -12145,3 +12145,38 @@ ul {
     0 0 5px rgba(0, 0, 0, 0.5)
   ); /* Optional: make logo stand out on video */
 }
+
+.custom-logo {
+  height: 40px;
+
+  width: 100px; /* maintain aspect ratio */
+}
+
+.gradient-btn {
+  background: linear-gradient(90deg, #ff0000, #000000); /* Red to Black */
+  color: white;
+  border: none;
+  transition: background 0.4s ease;
+}
+
+.gradient-btn:hover {
+  background: linear-gradient(
+    90deg,
+    #000000,
+    #ff0000
+  ); /* Black to Red on hover */
+}
+
+.gradient-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #000000, #ff0000);
+}
+
+.gradient-btn {
+  transition: all 0.3s ease;
+}
+
+.mobile-logo-small {
+  width: 150px; /* or any other value */
+  height: auto;
+}

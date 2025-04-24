@@ -75,16 +75,7 @@ export default function Banner() {
                         Uyire Musical
                         <br /> <span>Event 2025</span>
                       </h2>
-                      <p className="main-slider__text">
-                        Uyire Musical Event 2025 is not just a concert — it's a
-                        celebration of sound, <br />
-                        energy, and unforgettable vibes. Over two days, enjoy
-                        live music from top <br />
-                        singers, DJs, and celebrities. Whether you're with
-                        friends or family, <br />
-                        this event promises non-stop entertainment and lasting
-                        memories.
-                      </p>
+                      <p className="main-slider__text"></p>
                       <ul className="list-unstyled main-slider__address">
                         <li>
                           <div className="icon">

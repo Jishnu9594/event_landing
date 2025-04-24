@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import OnepageMenuItems from "./OnepageMenuItems";
-import MobileLogo from "../../../assets/images/resources/logo-1.png";
+import MobileLogo from "../../../assets/images/resources/eventlogo1.png";
 
 const MobileMenu2 = ({
   isSidebar,
@@ -36,18 +36,18 @@ const MobileMenu2 = ({
           </span>
           <div className="logo-box">
             <Link to="/" aria-label="Logo">
-              <img src={MobileLogo} alt="Logo" />
+              <img src={MobileLogo} alt="Logo" className="mobile-logo-small" />
             </Link>
           </div>
           <div className="mobile-nav__container">
             <ul className="main-menu__list">
               <OnepageMenuItems
-                  menuItem1={item1 ? item1 : 'Home'}
-                  menuItem3={item2 ? item2 : 'Services'}
-                  menuItem2={item3 ? item3 : 'About'}
-                  menuItem5={item4 ? item4 : 'Team'}
-                  menuItem6={item5 ? item5 : 'Event'}
-                  menuItem7={item6 ? item6 : 'Blog'}
+                menuItem1={item1 ? item1 : "Home"}
+                menuItem3={item2 ? item2 : "Services"}
+                menuItem2={item3 ? item3 : "About"}
+                menuItem5={item4 ? item4 : "Team"}
+                menuItem6={item5 ? item5 : "Event"}
+                menuItem7={item6 ? item6 : "Blog"}
               />
             </ul>
           </div>
@@ -64,9 +64,21 @@ const MobileMenu2 = ({
           <div className="mobile-nav__top">
             <div className="mobile-nav__social">
               <Link to="#" className="fab fa-twitter" aria-label="Twitter" />
-              <Link to="#" className="fab fa-facebook-square" aria-label="Facebook" />
-              <Link to="#" className="fab fa-pinterest-p" aria-label="Pinterest" />
-              <Link to="#" className="fab fa-instagram" aria-label="Instagram" />
+              <Link
+                to="#"
+                className="fab fa-facebook-square"
+                aria-label="Facebook"
+              />
+              <Link
+                to="#"
+                className="fab fa-pinterest-p"
+                aria-label="Pinterest"
+              />
+              <Link
+                to="#"
+                className="fab fa-instagram"
+                aria-label="Instagram"
+              />
             </div>
           </div>
         </div>

@@ -1,9 +1,8 @@
-
 "use client";
 import React from "react";
 import { Link } from "react-router-dom";
 import OnepageMenuItemsThree from "./OnepageMenuItemsThree";
-import MobileLogo from "../../../assets/images/resources/logo-1.png";
+import MobileLogo from "../../../assets/images/resources/eventlogo1.png";
 
 const MobileMenu4 = ({
   isSidebar,
@@ -43,12 +42,12 @@ const MobileMenu4 = ({
           <div className="mobile-nav__container">
             <ul className="main-menu__list">
               <OnepageMenuItemsThree
-                  menuItem1={item1 ? item1 : 'Home'}
-                  menuItem2={item2 ? item2 : 'Services'}
-                  menuItem3={item3 ? item3 : 'Event'}
-                  menuItem4={item4 ? item4 : 'Team'}
-                  menuItem5={item5 ? item5 : 'Pricing'}
-                  menuItem6={item6 ? item6 : 'Blog'}
+                menuItem1={item1 ? item1 : "Home"}
+                menuItem2={item2 ? item2 : "Services"}
+                menuItem3={item3 ? item3 : "Event"}
+                menuItem4={item4 ? item4 : "Team"}
+                menuItem5={item5 ? item5 : "Pricing"}
+                menuItem6={item6 ? item6 : "Blog"}
               />
             </ul>
           </div>
@@ -65,9 +64,21 @@ const MobileMenu4 = ({
           <div className="mobile-nav__top">
             <div className="mobile-nav__social">
               <Link to="#" className="fab fa-twitter" aria-label="Twitter" />
-              <Link to="#" className="fab fa-facebook-square" aria-label="Facebook" />
-              <Link to="#" className="fab fa-pinterest-p" aria-label="Pinterest" />
-              <Link to="#" className="fab fa-instagram" aria-label="Instagram" />
+              <Link
+                to="#"
+                className="fab fa-facebook-square"
+                aria-label="Facebook"
+              />
+              <Link
+                to="#"
+                className="fab fa-pinterest-p"
+                aria-label="Pinterest"
+              />
+              <Link
+                to="#"
+                className="fab fa-instagram"
+                aria-label="Instagram"
+              />
             </div>
           </div>
         </div>

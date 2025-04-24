@@ -4,7 +4,7 @@ import OnepageMenuItems from "./OnepageMenuItems";
 import MobileMenu2 from "./MobileMenu2";
 import SearchPopup from "./SearchPopup";
 import Sidebar from "./Sidebar";
-import navLogo from "../../../assets/images/resources/logo-1.png";
+import navLogo from "../../../assets/images/resources/eventlogo1.png";
 
 const HeaderStyleEight = (props) => {
   const { item2, item3, item4, item5, item6 } = props;
@@ -48,7 +48,7 @@ const HeaderStyleEight = (props) => {
               <div className="main-menu__left">
                 <div className="main-menu__logo">
                   <Link to="/">
-                    <img src={navLogo} alt="Logo" />
+                    <img src={navLogo} alt="Logo" className="custom-logo" />
                   </Link>
                 </div>
               </div>
@@ -71,7 +71,7 @@ const HeaderStyleEight = (props) => {
               </div>
               <div className="main-menu__right">
                 <div className="main-menu__btn-box">
-                  <Link to="#" className="main-menu__btn thm-btn">
+                  <Link to="#" className="main-menu__btn thm-btn gradient-btn">
                     Buy Ticket <span className="icon-arrow-right"></span>
                   </Link>
                 </div>
@@ -109,7 +109,7 @@ const HeaderStyleEight = (props) => {
                 <div className="main-menu__left">
                   <div className="main-menu__logo">
                     <Link to="/">
-                      <img src={navLogo} alt="Logo" />
+                      <img src={navLogo} alt="Logo" className="custom-logo" />
                     </Link>
                   </div>
                 </div>
@@ -135,7 +135,10 @@ const HeaderStyleEight = (props) => {
                 </div>
                 <div className="main-menu__right">
                   <div className="main-menu__btn-box">
-                    <Link to="#" className="main-menu__btn thm-btn">
+                    <Link
+                      to="#"
+                      className="main-menu__btn thm-btn gradient-btn"
+                    >
                       Buy Ticket <span className="icon-arrow-right"></span>
                     </Link>
                   </div>
