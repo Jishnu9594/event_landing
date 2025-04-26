@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       {/* Site Footer Start */}
-      <footer className="site-footer">
+      <footer className="site-footer" id="footer">
         <div className="site-footer__shape-1 float-bob-y">
           <img src={Footershape} alt="" />
         </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                 >
                   <div className="footer-widget__column footer-widget__events">
                     <div className="footer-widget__title-box">
-                      <h3 className="footer-widget__title">Upcoming Events</h3>
+                      <h3 className="footer-widget__title">Event Deatils</h3>
                     </div>
                     <ul className="footer-widget__events-list list-unstyled">
                       <li>
@@ -95,33 +95,7 @@ const Footer = () => {
                     </ul>
                   </div>
                 </div>
-                <div
-                  className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay="300ms"
-                >
-                  <div className="footer-widget__column footer-widget__our-company">
-                    <div className="footer-widget__title-box">
-                      <h3 className="footer-widget__title">Our Company</h3>
-                    </div>
-                    <ul className="footer-widget__link-list list-unstyled">
-                      <li>
-                        <Link to="/schedule-list-2">Jubilee Events</Link>
-                      </li>
-                      <li>
-                        <Link to="/about">Gala Affairs</Link>
-                      </li>
-                      <li>
-                        <Link to="/about">Inspire and Delight Events</Link>
-                      </li>
-                      <li>
-                        <Link to="/about">Enchanted Gatherings</Link>
-                      </li>
-                      <li>
-                        <Link to="/about">Eventful Ventures</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+
                 <div
                   className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
                   data-wow-delay="400ms"

@@ -14,7 +14,7 @@ export default function SlidingText() {
             </li>
             <li>
               <h2 data-hover="Celebrate Life" className="sliding-text__title">
-                Celebrate Life
+                2025
                 <img src={slideLogo1} alt="Star Icon" />
               </h2>
             </li>
@@ -26,7 +26,7 @@ export default function SlidingText() {
             </li>
             <li>
               <h2 data-hover="Celebrate Life" className="sliding-text__title">
-                Celebrate Life
+                2025
                 <img src={slideLogo1} alt="Star Icon" />
               </h2>
             </li>
@@ -38,7 +38,7 @@ export default function SlidingText() {
             </li>
             <li>
               <h2 data-hover="Celebrate Life" className="sliding-text__title">
-                Celebrate Life
+                2025
                 <img src={slideLogo1} alt="Star Icon" />
               </h2>
             </li>

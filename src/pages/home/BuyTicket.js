@@ -1,11 +1,11 @@
-"use client"; // Ensures the component runs on the client side
+// src/components/BuyTicket.jsx
+"use client";
 
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import ticketImg from "../../assets/images/resources/pn1.png";
 
 export default function BuyTicket() {
-  // State for dynamic content
+  // Dynamic content & links
   const [ticketContent] = useState({
     address: "Mirpur 01 Road N 12 Dhaka Bangladesh",
     timing: "10 Am To 10 Pm 20 April 2024",
@@ -16,17 +16,29 @@ export default function BuyTicket() {
       {
         id: 1,
         text: "Buy Your Ticket",
-        link: "/contact",
-        class: "buy-ticket__btn-1",
+        link: "#th-event", // scrolls to event section
+        class: "main-menu__btn thm-btn gradient-btn",
       },
       {
         id: 2,
         text: "Contact Us",
-        link: "/contact",
-        class: "buy-ticket__btn-2",
+        link: "#footer", // scrolls to footer
+        class: "main-menu__btn thm-btn gradient-btn",
       },
     ],
   });
+
+  // Handles both section-scrolling and external navigation
+  const handleButtonClick = (link) => {
+    if (link.startsWith("#")) {
+      const section = document.querySelector(link);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      window.location.href = link;
+    }
+  };
 
   return (
     <>
@@ -34,6 +46,7 @@ export default function BuyTicket() {
       <section className="buy-ticket">
         <div className="container">
           <div className="row">
+            {/* Left content */}
             <div className="col-xl-6">
               <div
                 className="buy-ticket__left wow fadeInLeft"
@@ -61,25 +74,27 @@ export default function BuyTicket() {
                 <p className="buy-ticket__text">{ticketContent.description}</p>
                 <div className="buy-ticket__btn-box">
                   {ticketContent.buttons.map((button) => (
-                    <Link
+                    <button
                       key={button.id}
-                      to={button.link}
                       className={`${button.class} thm-btn`}
+                      onClick={() => handleButtonClick(button.link)}
                     >
                       {button.text}
                       <span className="icon-arrow-right"></span>
-                    </Link>
+                    </button>
                   ))}
                 </div>
               </div>
             </div>
+
+            {/* Right image */}
             <div className="col-xl-6">
               <div
                 className="buy-ticket__right wow fadeInRight"
                 data-wow-delay="300ms"
               >
                 <div className="buy-ticket__img">
-                  <img src={ticketImg} alt="" />
+                  <img src={ticketImg} alt="Ticket promotion" />
                 </div>
               </div>
             </div>

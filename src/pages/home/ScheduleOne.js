@@ -2,8 +2,8 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import scheduleImg1 from "../../assets/images/resources/schedule-one-1-1.jpg";
-import scheduleImg2 from "../../assets/images/resources/schedule-one-1-2.jpg";
-import scheduleImg3 from "../../assets/images/resources/schedule-one-1-3.jpg";
+// import scheduleImg2 from "../../assets/images/resources/schedule-one-1-2.jpg";
+// import scheduleImg3 from "../../assets/images/resources/schedule-one-1-3.jpg";
 import scheduleImg4 from "../../assets/images/resources/schedule-one-1-4.jpg";
 import scheduleImg5 from "../../assets/images/resources/schedule-one-1-5.jpg";
 import scheduleImg6 from "../../assets/images/resources/schedule-one-1-6.jpg";
@@ -34,17 +34,17 @@ const ScheduleOne = () => {
                 onClick={() => handleTabClick("1st-day")}
               >
                 <h3>Day 01</h3>
-                <p>16 April 2024</p>
+                <p>Saturday, June 7, 2025</p>
               </li>
-              <li
+              {/* <li
                 className={`tab-btn day2 ${
                   activeTab === "2nd-day" ? "active-btn" : ""
                 }`}
                 onClick={() => handleTabClick("2nd-day")}
               >
                 <h3>Day 02</h3>
-                <p>18 April 2024</p>
-              </li>
+                <p>Sunday, June 8, 2025</p>
+              </li> */}
             </ul>
             <div className="tabs-content">
               <div
@@ -73,7 +73,8 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              10 Am To 10 Pm <br /> 20 April 2024
+                              Saturday, June 7, 2025 <br /> Time: 6:00 PM
+                              Onwards
                             </p>
                           </div>
                         </li>
@@ -83,7 +84,8 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Mirpur 01 Road N 12 Dhaka <br /> Bangladesh
+                              Pattambi
+                              <br /> Kerala,India
                             </p>
                           </div>
                         </li>
@@ -91,7 +93,7 @@ const ScheduleOne = () => {
                       <div className="schedule-one__btn-box">
                         <Link
                           to="/contact"
-                          className="schedule-one__btn thm-btn"
+                          className="main-menu__btn thm-btn gradient-btn"
                         >
                           Buy Ticket
                           <span className="icon-arrow-right"></span>
@@ -100,13 +102,13 @@ const ScheduleOne = () => {
                     </div>
                   </div>
 
-                  <div className="schedule-one__single">
+                  {/* <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
-                        <Link to="/event-details">Gold</Link>
+                        <Link to="/event-details">Platinum</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        ₹3,999 /- <br /> Entry for 4 people, standard seating
+                        ₹1,999 /- <br /> Entry for 4 people, standard seating
                       </p>
                     </div>
                     <div className="schedule-one__img">
@@ -238,7 +240,7 @@ const ScheduleOne = () => {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <p>

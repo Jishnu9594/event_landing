@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -82,7 +81,7 @@ export default function Banner() {
                             <span className="icon-pin"></span>
                           </div>
                           <div className="text">
-                            <p>Mirpur 01 Road N 12 Dhaka Bangladesh</p>
+                            <p>Pattambi</p>
                           </div>
                         </li>
                         <li>
@@ -95,10 +94,13 @@ export default function Banner() {
                         </li>
                       </ul>
                       <div className="main-slider__btn-box">
-                        <Link to="#" className="main-slider__btn thm-btn">
+                        <a
+                          href="#th-event"
+                          className="main-menu__btn thm-btn gradient-btn"
+                        >
                           Purchase Ticket{" "}
                           <span className="icon-arrow-right"></span>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>

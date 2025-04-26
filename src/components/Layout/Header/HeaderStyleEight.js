@@ -1,13 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import OnepageMenuItems from "./OnepageMenuItems";
 import MobileMenu2 from "./MobileMenu2";
 import SearchPopup from "./SearchPopup";
 import Sidebar from "./Sidebar";
 import navLogo from "../../../assets/images/resources/eventlogo1.png";
 
 const HeaderStyleEight = (props) => {
-  const { item2, item3, item4, item5, item6 } = props;
   const [isVisible, setIsVisible] = useState(false);
   const [isMobileMenu, setMobileMenu] = useState(false);
   const [isPopup, setIsPopup] = useState(false);
@@ -56,24 +54,16 @@ const HeaderStyleEight = (props) => {
                 <div className="mobile-nav__toggler" onClick={handleMobileMenu}>
                   <i className="fa fa-bars" />
                 </div>
-                <ul className="main-menu__list">
-                  <li className="dropdown">
-                    <Link to="#">Home</Link>
-                  </li>
-                  <OnepageMenuItems
-                    menuItem3={item2 ? item2 : "Services"}
-                    menuItem2={item3 ? item3 : "About"}
-                    menuItem5={item4 ? item4 : "Team"}
-                    menuItem6={item5 ? item5 : "Event"}
-                    menuItem7={item6 ? item6 : "Blog"}
-                  />
-                </ul>
+                <ul className="main-menu__list">{/* No menu items here */}</ul>
               </div>
               <div className="main-menu__right">
                 <div className="main-menu__btn-box">
-                  <Link to="#" className="main-menu__btn thm-btn gradient-btn">
+                  <a
+                    href="#th-event"
+                    className="main-menu__btn thm-btn gradient-btn"
+                  >
                     Buy Ticket <span className="icon-arrow-right"></span>
-                  </Link>
+                  </a>
                 </div>
                 <div className="main-menu__cart-search-nav-sidebar-icon-and-btn-box">
                   <Link to="#" className="main-menu__cart icon-cart"></Link>
@@ -97,6 +87,8 @@ const HeaderStyleEight = (props) => {
             </div>
           </div>
         </nav>
+
+        {/* Sticky Header */}
         <div
           className={`stricky-header stricked-menu main-menu ${
             isVisible ? "stricky-fixed" : ""
@@ -121,26 +113,17 @@ const HeaderStyleEight = (props) => {
                     <i className="fa fa-bars" />
                   </div>
                   <ul className="main-menu__list">
-                    <li className="dropdown">
-                      <Link to="/">Home</Link>
-                    </li>
-                    <OnepageMenuItems
-                      menuItem3={item2 ? item2 : "Services"}
-                      menuItem2={item3 ? item3 : "About"}
-                      menuItem5={item4 ? item4 : "Team"}
-                      menuItem6={item5 ? item5 : "Event"}
-                      menuItem7={item6 ? item6 : "Blog"}
-                    />
+                    {/* No menu items here */}
                   </ul>
                 </div>
                 <div className="main-menu__right">
                   <div className="main-menu__btn-box">
-                    <Link
-                      to="#"
+                    <a
+                      href="#th-event"
                       className="main-menu__btn thm-btn gradient-btn"
                     >
                       Buy Ticket <span className="icon-arrow-right"></span>
-                    </Link>
+                    </a>
                   </div>
                   <div className="main-menu__cart-search-nav-sidebar-icon-and-btn-box">
                     <Link to="#" className="main-menu__cart icon-cart"></Link>
@@ -164,8 +147,11 @@ const HeaderStyleEight = (props) => {
             </div>
           </nav>
         </div>
+
+        {/* Mobile menu and popups */}
         <MobileMenu2 handleMobileMenu={handleMobileMenu} />
       </header>
+
       <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
       <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
     </React.Fragment>

@@ -1,24 +1,9 @@
 "use client";
 import React from "react";
 import { Link } from "react-router-dom";
-import OnepageMenuItems from "./OnepageMenuItems";
 import MobileLogo from "../../../assets/images/resources/eventlogo1.png";
 
-const MobileMenu2 = ({
-  isSidebar,
-  handleMobileMenu,
-  handleSidebar,
-  ...props
-}) => {
-  const {
-    item1 = "Home",
-    item2 = "Services",
-    item3 = "About",
-    item4 = "Team",
-    item5 = "Event",
-    item6 = "Blog",
-  } = props;
-
+const MobileMenu2 = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
   return (
     <>
       {/* Mobile Menu */}
@@ -40,16 +25,7 @@ const MobileMenu2 = ({
             </Link>
           </div>
           <div className="mobile-nav__container">
-            <ul className="main-menu__list">
-              <OnepageMenuItems
-                menuItem1={item1 ? item1 : "Home"}
-                menuItem3={item2 ? item2 : "Services"}
-                menuItem2={item3 ? item3 : "About"}
-                menuItem5={item4 ? item4 : "Team"}
-                menuItem6={item5 ? item5 : "Event"}
-                menuItem7={item6 ? item6 : "Blog"}
-              />
-            </ul>
+            <ul className="main-menu__list">{/* Menu items removed */}</ul>
           </div>
           <ul className="mobile-nav__contact list-unstyled">
             <li>

@@ -10,7 +10,7 @@ export default function EventOne() {
     sectionTagline: "About Uyire Musical Event",
     sectionTitle: "United by Music, Lasting Memories",
     buttonText: "Join The Event",
-    buttonLink: "/event-details",
+    buttonLink: "/#th-event",
     points: [
       {
         id: 1,
@@ -52,7 +52,7 @@ export default function EventOne() {
               <div className="event-one__btn-box">
                 <Link
                   to={eventContent.buttonLink}
-                  className="event-one__btn thm-btn"
+                  className="main-menu__btn thm-btn gradient-btn"
                 >
                   {eventContent.buttonText}
                   <span className="icon-arrow-right"></span>
