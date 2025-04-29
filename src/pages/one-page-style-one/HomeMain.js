@@ -7,7 +7,7 @@ import BuyTicket from "../home/BuyTicket";
 import EventDirection from "../home/EventDirection";
 import GalleryOne from "../home/GalleryOne";
 import ScheduleOne from "../home/ScheduleOne";
-import BrandOne from "../home/BrandOne";
+// import BrandOne from "../home/BrandOne";
 
 const HomeMain = () => {
   return (
@@ -21,7 +21,7 @@ const HomeMain = () => {
       <EventDirection />
       <GalleryOne />
       <ScheduleOne />
-      <BrandOne />
+      {/* <BrandOne /> */}
     </React.Fragment>
   );
 };
