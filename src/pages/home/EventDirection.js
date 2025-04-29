@@ -12,7 +12,7 @@ export default function EventDirection() {
     text: "Uyire brings music lovers together for an unforgettable experience. <br> From electrifying performances to soulful moments — it’s all here.",
     phone: "3075550133",
     callText: "Call Us",
-    callNumber: "(307) 555-0133",
+    callNumber: "+91 77360 39006",
     iconSrc: directionIcon,
   });
 

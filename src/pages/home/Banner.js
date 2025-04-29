@@ -81,7 +81,7 @@ export default function Banner() {
                             <span className="icon-pin"></span>
                           </div>
                           <div className="text">
-                            <p>Pattambi</p>
+                            <p>New Diamond Parappuram,Pattambi</p>
                           </div>
                         </li>
                         <li>
@@ -89,7 +89,9 @@ export default function Banner() {
                             <span className="icon-clock"></span>
                           </div>
                           <div className="text">
-                            <p>10 Am To 10 Pm 20 April 2024</p>
+                            <p>
+                              Sunday 6 July 2025 <br /> Time: 04:00 pm - 11:00
+                            </p>
                           </div>
                         </li>
                       </ul>

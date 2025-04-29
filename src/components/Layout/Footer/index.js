@@ -50,25 +50,33 @@ const Footer = () => {
                     </div>
                     <ul className="footer-widget__events-list list-unstyled">
                       <li>
-                        <p>11 April 2024 At 10 Pm In Dhaka</p>
-                        <h5>Ui/ux Designer Meetup</h5>
-                        <Link to="/event-details">
+                        <p>
+                          {" "}
+                          New Diamond Parappuram,Pattambi
+                          <br /> Kerala,India
+                        </p>
+                        <h5>
+                          {" "}
+                          Sunday 6 July 2025 <br /> Time: 04:00 pm - 11:00 pm
+                          Onwards
+                        </h5>
+                        <Link to="#">
                           Get a Ticket{" "}
                           <span className="icon-arrow-right"></span>
                         </Link>
                       </li>
                       <li>
-                        <p>11 April 2024 At 10 Pm In Dhaka</p>
-                        <h5>Ui/ux Designer Meetup</h5>
+                        <p></p>
+                        {/* <h5></h5>
                         <Link to="/event-details">
                           Get a Ticket{" "}
                           <span className="icon-arrow-right"></span>
-                        </Link>
+                        </Link> */}
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div
+                {/* <div
                   className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
                   data-wow-delay="200ms"
                 >
@@ -94,7 +102,7 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
 
                 <div
                   className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
@@ -112,8 +120,8 @@ const Footer = () => {
                           </div>
                           <div className="text">
                             <p>
-                              <a href="mailto:nafiz125@gmail.com">
-                                nafiz125@gmail.com
+                              <a href="mailto:uyireofficial@gmail.com">
+                                uyireofficial@gmail.com
                               </a>
                             </p>
                           </div>
@@ -123,7 +131,7 @@ const Footer = () => {
                             <span className="icon-pin"></span>
                           </div>
                           <div className="text">
-                            <p>3891 Ranchview Dr. Richardson</p>
+                            <p>New Diamond Parappuram</p>
                           </div>
                         </li>
                         <li>
@@ -132,9 +140,7 @@ const Footer = () => {
                           </div>
                           <div className="text">
                             <p>
-                              <a href="tel:01245789321">
-                                01245789321, 012457895146
-                              </a>
+                              <a href="tel:+91 77360 39006">+91 77360 39006</a>
                             </p>
                           </div>
                         </li>

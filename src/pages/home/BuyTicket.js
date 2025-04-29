@@ -7,8 +7,8 @@ import ticketImg from "../../assets/images/resources/pn1.png";
 export default function BuyTicket() {
   // Dynamic content & links
   const [ticketContent] = useState({
-    address: "Mirpur 01 Road N 12 Dhaka Bangladesh",
-    timing: "10 Am To 10 Pm 20 April 2024",
+    address: "New Diamond Parappuram,PattambiKerala,India",
+    timing: " Sunday 6 July 2025 ,Time: 04:00 pm - 11:00pm Onwards",
     title: "Grab Your Seat Now , Don’t Miss the Magic",
     description:
       "Uyire brings music lovers together for two unforgettable days of live performances, energy, and celebration. Be part of the vibe — before it's too late!",
