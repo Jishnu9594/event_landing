@@ -34,7 +34,7 @@ const ScheduleOne = () => {
                 onClick={() => handleTabClick("1st-day")}
               >
                 <h3>Day 01</h3>
-                <p>Saturday, June 7, 2025</p>
+                <p>Sunday 6 July 2025</p>
               </li>
               {/* <li
                 className={`tab-btn day2 ${
@@ -73,8 +73,8 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Saturday, June 7, 2025 <br /> Time: 6:00 PM
-                              Onwards
+                              Sunday 6 July 2025 <br /> Time: 04:00 pm - 11:00
+                              pm Onwards
                             </p>
                           </div>
                         </li>
@@ -84,7 +84,7 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Pattambi
+                              New Diamond Parappuram,Pattambi
                               <br /> Kerala,India
                             </p>
                           </div>
@@ -92,7 +92,7 @@ const ScheduleOne = () => {
                       </ul>
                       <div className="schedule-one__btn-box">
                         <Link
-                          to="/contact"
+                          to="https://makemypass.com/event/uyire-musical-event"
                           className="main-menu__btn thm-btn gradient-btn"
                         >
                           Buy Ticket
