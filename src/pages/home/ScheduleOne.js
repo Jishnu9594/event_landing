@@ -1,7 +1,7 @@
 "use client";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import scheduleImg1 from "../../assets/images/resources/schedule-one-1-1.jpg";
+import scheduleImg1 from "../../assets/images/resources/vip_ticket.jpg";
 // import scheduleImg2 from "../../assets/images/resources/schedule-one-1-2.jpg";
 // import scheduleImg3 from "../../assets/images/resources/schedule-one-1-3.jpg";
 import scheduleImg4 from "../../assets/images/resources/schedule-one-1-4.jpg";
