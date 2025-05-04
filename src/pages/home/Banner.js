@@ -90,7 +90,7 @@ export default function Banner() {
                           </div>
                           <div className="text">
                             <p>
-                              Sunday 6 July 2025 <br /> Time: 04:00 pm - 11:00
+                              4 pm To 11 Pm <br /> 07 JUNE 2025 Saturday
                             </p>
                           </div>
                         </li>
