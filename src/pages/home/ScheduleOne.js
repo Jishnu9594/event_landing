@@ -1,9 +1,9 @@
 "use client";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import scheduleImg1 from "../../assets/images/resources/vip_ticket.jpg";
-// import scheduleImg2 from "../../assets/images/resources/schedule-one-1-2.jpg";
-// import scheduleImg3 from "../../assets/images/resources/schedule-one-1-3.jpg";
+// import scheduleImg1 from "../../assets/images/resources/vip_ticket.jpg";
+import scheduleImg2 from "../../assets/images/resources/sliverticket.jpeg";
+import scheduleImg3 from "../../assets/images/resources/gold ticket.jpeg";
 import scheduleImg4 from "../../assets/images/resources/schedule-one-1-4.jpg";
 import scheduleImg5 from "../../assets/images/resources/schedule-one-1-5.jpg";
 import scheduleImg6 from "../../assets/images/resources/schedule-one-1-6.jpg";
@@ -34,7 +34,7 @@ const ScheduleOne = () => {
                 onClick={() => handleTabClick("1st-day")}
               >
                 <h3>Day 01</h3>
-                <p>Sunday 6 July 2025</p>
+                <p>Saturday 7 June 2025</p>
               </li>
               {/* <li
                 className={`tab-btn day2 ${
@@ -52,7 +52,7 @@ const ScheduleOne = () => {
                 id="1st-day"
               >
                 <div className="schedule-one__tab-content-box">
-                  <div className="schedule-one__single">
+                  {/* <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
                         <Link to="/event-details">Diamond</Link>
@@ -100,8 +100,54 @@ const ScheduleOne = () => {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
 
+                  <div className="schedule-one__single">
+                    <div className="schedule-one__left">
+                      <h3 className="schedule-one__title">
+                        <Link to="">Sliver</Link>
+                      </h3>
+                      <p className="schedule-one__text">
+                        ₹999/- <br /> Entry for 2 people, general admission
+                      </p>
+                    </div>
+                    <div className="schedule-one__img">
+                      <img src={scheduleImg2} alt="" />
+                    </div>
+                    <div className="schedule-one__address-and-btn-box">
+                      <ul className="list-unstyled schedule-one__address">
+                        <li>
+                          <div className="icon">
+                            <span className="icon-clock"></span>
+                          </div>
+                          <div className="text">
+                            <p>
+                              4 pm To 11 Pm <br /> 07 JUNE 2025 Saturday
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className="icon">
+                            <span className="icon-pin"></span>
+                          </div>
+                          <div className="text">
+                            <p>
+                              Pattambi <br /> Ongallur
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                      <div className="schedule-one__btn-box">
+                        <Link
+                          to="https://makemypass.com/event/uyire-musical-event"
+                          className="schedule-one__btn thm-btn"
+                        >
+                          Buy Ticket
+                          <span className="icon-arrow-right"></span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                   {/* <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
@@ -147,61 +193,15 @@ const ScheduleOne = () => {
                         </Link>
                       </div>
                     </div>
-                  </div>
-                  <div className="schedule-one__single">
-                    <div className="schedule-one__left">
-                      <h3 className="schedule-one__title">
-                        <Link to="/event-details">Platinum</Link>
-                      </h3>
-                      <p className="schedule-one__text">
-                        ₹1,999 /- <br /> Entry for 4 people, standard seating
-                      </p>
-                    </div>
-                    <div className="schedule-one__img">
-                      <img src={scheduleImg2} alt="" />
-                    </div>
-                    <div className="schedule-one__address-and-btn-box">
-                      <ul className="list-unstyled schedule-one__address">
-                        <li>
-                          <div className="icon">
-                            <span className="icon-clock"></span>
-                          </div>
-                          <div className="text">
-                            <p>
-                              10 Am To 10 Pm <br /> 20 April 2024
-                            </p>
-                          </div>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <span className="icon-pin"></span>
-                          </div>
-                          <div className="text">
-                            <p>
-                              Mirpur 01 Road N 12 Dhaka <br /> Bangladesh
-                            </p>
-                          </div>
-                        </li>
-                      </ul>
-                      <div className="schedule-one__btn-box">
-                        <Link
-                          to="/contact"
-                          className="schedule-one__btn thm-btn"
-                        >
-                          Buy Ticket
-                          <span className="icon-arrow-right"></span>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+                  </div> */}
 
                   <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
-                        <Link to="/event-details">Silver</Link>
+                        <Link to="">Gold</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        999 /- <br /> Entry for 2 people, general admission
+                        ₹3,999/- <br /> Entry for 4 people, standard seating
                       </p>
                     </div>
                     <div className="schedule-one__img">
@@ -215,7 +215,7 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              10 Am To 10 Pm <br /> 20 April 2024
+                              4 pm To 11 Pm <br /> 07 JUNE 2025 Saturday
                             </p>
                           </div>
                         </li>
@@ -225,14 +225,14 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Mirpur 01 Road N 12 Dhaka <br /> Bangladesh
+                              Pattambi <br /> Ongallur
                             </p>
                           </div>
                         </li>
                       </ul>
                       <div className="schedule-one__btn-box">
                         <Link
-                          to="/contact"
+                          to="https://makemypass.com/event/uyire-musical-event"
                           className="schedule-one__btn thm-btn"
                         >
                           Buy Ticket
@@ -240,7 +240,7 @@ const ScheduleOne = () => {
                         </Link>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </div>
               <p>
