@@ -81,7 +81,7 @@ export default function Banner() {
                             <span className="icon-pin"></span>
                           </div>
                           <div className="text">
-                            <p>New Diamond Parappuram,Pattambi</p>
+                            <p>Pattambi Ongallur</p>
                           </div>
                         </li>
                         <li>
@@ -90,7 +90,8 @@ export default function Banner() {
                           </div>
                           <div className="text">
                             <p>
-                              4 pm To 11 Pm <br /> 07 JUNE 2025 Saturday
+                              4 pm To 11 Pm <br /> 07 JUNE 2025 Saturday <br />
+                              08 JUNE 2025 Sunday
                             </p>
                           </div>
                         </li>

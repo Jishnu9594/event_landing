@@ -201,7 +201,7 @@ const ScheduleOne = () => {
                         <Link to="">Gold</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        ₹3,999/- <br /> Entry for 4 people, standard seating
+                        ₹2,999/- <br /> Entry for 4 people, standard seating
                       </p>
                     </div>
                     <div className="schedule-one__img">

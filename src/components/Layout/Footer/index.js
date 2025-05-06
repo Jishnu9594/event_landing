@@ -52,13 +52,13 @@ const Footer = () => {
                       <li>
                         <p>
                           {" "}
-                          New Diamond Parappuram,Pattambi
-                          <br /> Kerala,India
+                          New Diamond Parappuram
+                          presents,Pattambi,Ongallur,India
                         </p>
                         <h5>
                           {" "}
-                          Sunday 6 July 2025 <br /> Time: 04:00 pm - 11:00 pm
-                          Onwards
+                          4 pm To 11 Pm ,07 JUNE 2025 Saturday 08 JUNE 2025
+                          Sunday
                         </h5>
                         <Link to="#">
                           Get a Ticket{" "}
@@ -131,7 +131,7 @@ const Footer = () => {
                             <span className="icon-pin"></span>
                           </div>
                           <div className="text">
-                            <p>New Diamond Parappuram</p>
+                            <p> Pattambi,Ongallur,India</p>
                           </div>
                         </li>
                         <li>
