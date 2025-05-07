@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // Background video only
-import BackgroundVideo from "../../assets/images/resources/Video-347.mp4";
+import BackgroundVideo from "../../assets/images/resources/web.mp4";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],

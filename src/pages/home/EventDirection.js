@@ -3,7 +3,7 @@
 import { useState } from "react";
 import CountUp from "react-countup";
 import directionIcon from "../../assets/images/icon/event-direction-chat-icon.png";
-import backgroundVideo from "../../assets/images/resources/Video-347.mp4"; // 👈 your video path here
+import backgroundVideo from "../../assets/images/resources/web.mp4"; // 👈 your video path here
 
 export default function EventDirection() {
   const [eventContent] = useState({
