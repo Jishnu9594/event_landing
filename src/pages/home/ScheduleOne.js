@@ -2,8 +2,8 @@
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 // import scheduleImg1 from "../../assets/images/resources/vip_ticket.jpg";
-import scheduleImg2 from "../../assets/images/resources/sliverticket.jpeg";
-import scheduleImg3 from "../../assets/images/resources/gold ticket.jpeg";
+import scheduleImg2 from "../../assets/images/resources/silverj.png";
+import scheduleImg3 from "../../assets/images/resources/goldj.png";
 import scheduleImg4 from "../../assets/images/resources/schedule-one-1-4.jpg";
 import scheduleImg5 from "../../assets/images/resources/schedule-one-1-5.jpg";
 import scheduleImg6 from "../../assets/images/resources/schedule-one-1-6.jpg";
