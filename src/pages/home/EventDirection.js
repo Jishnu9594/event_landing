@@ -10,7 +10,7 @@ export default function EventDirection() {
     tagline: "Experience Uyire",
     title: "Creating Musical <br> Memories Together",
     text: "Uyire brings music lovers together for an unforgettable experience. <br> From electrifying performances to soulful moments — it’s all here.",
-    phone: "3075550133",
+    phone: "+91 77360 39006",
     callText: "Call Us",
     callNumber: "+91 77360 39006",
     iconSrc: directionIcon,

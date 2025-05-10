@@ -6,7 +6,7 @@ import GalleryImg2 from "../../assets/images/gallery/Sarayu8.webp";
 import GalleryImg3 from "../../assets/images/gallery/nivin.jpeg";
 import GalleryImg4 from "../../assets/images/gallery/vyshnav.jpg";
 import GalleryImg5 from "../../assets/images/gallery/anu.png";
-import GalleryImg6 from "../../assets/images/gallery/BabyJean2.jpg";
+// import GalleryImg6 from "../../assets/images/gallery/BabyJean2.jpg";
 import GalleryImg7 from "../../assets/images/gallery/gabry.jpeg";
 import GalleryImg9 from "../../assets/images/gallery/julis.jpg";
 import GalleryImg10 from "../../assets/images/gallery/oar2.jpg";
@@ -47,13 +47,13 @@ const galleryItems = [
     subtitle: " Popular playback singer known for her melodious voice",
     href: "/gallery-details",
   },
-  {
-    src: GalleryImg6,
-    alt: "Gallery 6",
-    title: "Babyjean ",
-    subtitle: "EDM and international club music",
-    href: "/gallery-details",
-  },
+  // {
+  //   src: GalleryImg6,
+  //   alt: "Gallery 6",
+  //   title: "Babyjean ",
+  //   subtitle: "EDM and international club music",
+  //   href: "/gallery-details",
+  // },
   {
     src: GalleryImg7,
     alt: "Gallery 7",
