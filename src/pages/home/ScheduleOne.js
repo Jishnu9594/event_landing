@@ -36,7 +36,7 @@ const ScheduleOne = () => {
                 <h3>Day 01</h3>
                 <p>Saturday 7 June 2025</p>
               </li>
-              {/* <li
+              <li
                 className={`tab-btn day2 ${
                   activeTab === "2nd-day" ? "active-btn" : ""
                 }`}
@@ -44,7 +44,7 @@ const ScheduleOne = () => {
               >
                 <h3>Day 02</h3>
                 <p>Sunday, June 8, 2025</p>
-              </li> */}
+              </li>
             </ul>
             <div className="tabs-content">
               <div
@@ -252,7 +252,18 @@ const ScheduleOne = () => {
                 className={`tab ${activeTab === "2nd-day" ? "active-tab" : ""}`}
                 id="2nd-day"
               >
-                <div className="schedule-one__tab-content-box">
+                {activeTab === "2nd-day" && (
+                  <div className="coming-soon-container">
+                    <h2 className="coming-soon-text">
+                      {"Coming Soon".split("").map((char, index) => (
+                        <span key={index}>
+                          {char === " " ? "\u00A0" : char}
+                        </span>
+                      ))}
+                    </h2>
+                  </div>
+                )}
+                {/* <div className="schedule-one__tab-content-box">
                   <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
@@ -399,7 +410,7 @@ const ScheduleOne = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

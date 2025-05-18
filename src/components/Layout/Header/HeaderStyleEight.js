@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import MobileMenu2 from "./MobileMenu2";
 import SearchPopup from "./SearchPopup";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
 import navLogo from "../../../assets/images/resources/eventlogo1.png";
 
 const HeaderStyleEight = (props) => {
@@ -152,8 +152,8 @@ const HeaderStyleEight = (props) => {
         <MobileMenu2 handleMobileMenu={handleMobileMenu} />
       </header>
 
-      <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
-      <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
+      {/* <SearchPopup isPopup={isPopup} handlePopup={handlePopup} /> */}
+      {/* <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} /> */}
     </React.Fragment>
   );
 };

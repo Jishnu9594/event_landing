@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import MenuItems from "./MenuItems";
 import MobileMenu from "./MobileMenu";
 import SearchPopup from "./SearchPopup";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
 import navLogo from "../../../assets/images/resources/eventlogo1.png";
 
 const Header = (props) => {
@@ -154,7 +154,7 @@ const Header = (props) => {
         <MobileMenu handleMobileMenu={handleMobileMenu} />
       </header>
       <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
-      <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
+      {/* <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} /> */}
     </React.Fragment>
   );
 };

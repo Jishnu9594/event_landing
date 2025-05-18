@@ -12180,3 +12180,95 @@ ul {
   width: 150px; /* or any other value */
   height: auto;
 }
+
+.coming-soon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* desktop default height */
+  padding: 0 10px; /* some horizontal padding for small screens */
+}
+
+.coming-soon-text {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #28a745;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Animate each letter */
+.coming-soon-text span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideUp 0.6s forwards;
+}
+
+/* Stagger animation delay for each letter */
+.coming-soon-text span:nth-child(1) {
+  animation-delay: 0s;
+}
+.coming-soon-text span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.coming-soon-text span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.coming-soon-text span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.coming-soon-text span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.coming-soon-text span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.coming-soon-text span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.coming-soon-text span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.coming-soon-text span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.coming-soon-text span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+.coming-soon-text span:nth-child(11) {
+  animation-delay: 1s;
+}
+
+/* Keyframes for fade and slide up */
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .coming-soon-container {
+    height: 150px;
+  }
+  .coming-soon-text {
+    font-size: 3rem;
+    letter-spacing: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .coming-soon-container {
+    height: 120px;
+  }
+  .coming-soon-text {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+}
