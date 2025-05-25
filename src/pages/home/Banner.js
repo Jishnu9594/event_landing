@@ -81,7 +81,8 @@ export default function Banner() {
                             <span className="icon-pin"></span>
                           </div>
                           <div className="text">
-                            <p>Pattambi Ongallur</p>
+                            <p>OPH CONVENTION CENTRE</p>
+                            <p>AMAYUR,PATTAMBI</p>
                           </div>
                         </li>
                         <li>

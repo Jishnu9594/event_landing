@@ -50,11 +50,7 @@ const Footer = () => {
                     </div>
                     <ul className="footer-widget__events-list list-unstyled">
                       <li>
-                        <p>
-                          {" "}
-                          New Diamond Parappuram
-                          presents,Pattambi,Ongallur,India
-                        </p>
+                        <p> OPH CONVENTION CENTRE,AMAYUR,PATTAMBI,INDIA</p>
                         <h5>
                           {" "}
                           4 pm To 11 Pm ,07 JUNE 2025 Saturday 08 JUNE 2025
@@ -131,7 +127,7 @@ const Footer = () => {
                             <span className="icon-pin"></span>
                           </div>
                           <div className="text">
-                            <p> Pattambi,Ongallur,India</p>
+                            <p>OPH CONVENTION CENTRE, AMAYUR,PATTAMBI</p>
                           </div>
                         </li>
                         <li>

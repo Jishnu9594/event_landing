@@ -8,7 +8,7 @@ export default function BuyTicket() {
   // Dynamic content & links
   const [ticketContent] = useState({
     address: "4 pm To 11 Pm ,07 JUNE 2025 Saturday 08 JUNE 2025 Sunday",
-    timing: "New Diamond Parappuram presents,Pattambi,Ongallur,India ",
+    timing: "OPH CONVENTION CENTRE, AMAYUR, PATTAMBI ",
     title: "Grab Your Seat Now , Don’t Miss the Magic",
     description:
       "Uyire brings music lovers together for two unforgettable days of live performances, energy, and celebration. Be part of the vibe — before it's too late!",

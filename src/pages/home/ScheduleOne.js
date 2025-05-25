@@ -132,7 +132,7 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Pattambi <br /> Ongallur
+                              OPH CONVENTION CENTRE <br /> AMAYUR,PATTAMBI
                             </p>
                           </div>
                         </li>
@@ -225,7 +225,7 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Pattambi <br /> Ongallur
+                              OPH CONVENTION CENTRE <br /> AMAYUR,PATTAMBI
                             </p>
                           </div>
                         </li>
