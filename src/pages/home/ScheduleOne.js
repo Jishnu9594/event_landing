@@ -4,9 +4,9 @@ import React, { useState } from "react";
 // import scheduleImg1 from "../../assets/images/resources/vip_ticket.jpg";
 import scheduleImg2 from "../../assets/images/resources/silverj.png";
 import scheduleImg3 from "../../assets/images/resources/goldj.png";
-import scheduleImg4 from "../../assets/images/resources/schedule-one-1-4.jpg";
-import scheduleImg5 from "../../assets/images/resources/schedule-one-1-5.jpg";
-import scheduleImg6 from "../../assets/images/resources/schedule-one-1-6.jpg";
+import scheduleImg4 from "../../assets/images/resources/entry.jpg";
+import scheduleImg5 from "../../assets/images/resources/fans.jpg";
+import scheduleImg6 from "../../assets/images/resources/couples.jpg";
 
 const ScheduleOne = () => {
   const [activeTab, setActiveTab] = useState("1st-day");
@@ -254,26 +254,24 @@ const ScheduleOne = () => {
               >
                 {activeTab === "2nd-day" && (
                   <div className="coming-soon-container">
-                    <h2 className="coming-soon-text">
+                    {/* <h2 className="coming-soon-text">
                       {"Coming Soon".split("").map((char, index) => (
                         <span key={index}>
                           {char === " " ? "\u00A0" : char}
                         </span>
                       ))}
-                    </h2>
+                    </h2> */}
                   </div>
                 )}
-                {/* <div className="schedule-one__tab-content-box">
+                <div className="schedule-one__tab-content-box">
                   <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
-                        <Link to="/event-details">
-                          Events That Leave a <br /> Impression
-                        </Link>
+                        <Link to="#">Entry Pass</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        A personal portfolio is a curated collection of <br />{" "}
-                        an individual's professional work
+                        First 500 tickets at ₹299!
+                        <br /> Then ₹399. Hurry!
                       </p>
                     </div>
                     <div className="schedule-one__img">
@@ -287,7 +285,7 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              10 Am To 10 Pm <br /> 20 April 2024
+                              4 pm To 11 Pm <br /> 08 JUNE 2025 Sunday
                             </p>
                           </div>
                         </li>
@@ -297,16 +295,13 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Mirpur 01 Road N 12 Dhaka <br /> Bangladesh
+                              OPH CONVENTION CENTRE <br /> AMAYUR,PATTAMBI
                             </p>
                           </div>
                         </li>
                       </ul>
                       <div className="schedule-one__btn-box">
-                        <Link
-                          to="/contact"
-                          className="schedule-one__btn thm-btn"
-                        >
+                        <Link to="#" className="schedule-one__btn thm-btn">
                           Buy Ticket <span className="icon-arrow-right"></span>
                         </Link>
                       </div>
@@ -316,13 +311,11 @@ const ScheduleOne = () => {
                   <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
-                        <Link to="/event-details">
-                          Sparkle & Shine on <br /> Celebrations
-                        </Link>
+                        <Link to="#">Fans Pass</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        A personal portfolio is a curated collection of <br />{" "}
-                        an individual's professional work
+                        First 100 tickets at ₹499!
+                        <br /> Then ₹599. Hurry!
                       </p>
                     </div>
                     <div className="schedule-one__img">
@@ -336,7 +329,7 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              10 Am To 10 Pm <br /> 20 April 2024
+                              4 pm To 11 Pm <br /> 08 JUNE 2025 Sunday
                             </p>
                           </div>
                         </li>
@@ -346,16 +339,13 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Mirpur 01 Road N 12 Dhaka <br /> Bangladesh
+                              OPH CONVENTION CENTRE <br /> AMAYUR,PATTAMBI
                             </p>
                           </div>
                         </li>
                       </ul>
                       <div className="schedule-one__btn-box">
-                        <Link
-                          to="/contact"
-                          className="schedule-one__btn thm-btn"
-                        >
+                        <Link to="#" className="schedule-one__btn thm-btn">
                           Buy Ticket <span className="icon-arrow-right"></span>
                         </Link>
                       </div>
@@ -365,13 +355,11 @@ const ScheduleOne = () => {
                   <div className="schedule-one__single">
                     <div className="schedule-one__left">
                       <h3 className="schedule-one__title">
-                        <Link to="/event-details">
-                          Sparkle & Shine <br /> Events
-                        </Link>
+                        <Link to="#">Couple Pass</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        A personal portfolio is a curated collection of <br />{" "}
-                        an individual's professional work
+                        First 100 tickets at ₹299!
+                        <br /> Then ₹399. Hurry!
                       </p>
                     </div>
                     <div className="schedule-one__img">
@@ -385,7 +373,7 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              10 Am To 10 Pm <br /> 20 April 2024
+                              4 pm To 11 Pm <br /> 08 JUNE 2025 Sunday
                             </p>
                           </div>
                         </li>
@@ -395,22 +383,19 @@ const ScheduleOne = () => {
                           </div>
                           <div className="text">
                             <p>
-                              Mirpur 01 Road N 12 Dhaka <br /> Bangladesh
+                              OPH CONVENTION CENTRE <br /> AMAYUR,PATTAMBI
                             </p>
                           </div>
                         </li>
                       </ul>
                       <div className="schedule-one__btn-box">
-                        <Link
-                          to="/contact"
-                          className="schedule-one__btn thm-btn"
-                        >
+                        <Link to="#" className="schedule-one__btn thm-btn">
                           Buy Ticket <span className="icon-arrow-right"></span>
                         </Link>
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
