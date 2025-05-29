@@ -301,7 +301,10 @@ const ScheduleOne = () => {
                         </li>
                       </ul>
                       <div className="schedule-one__btn-box">
-                        <Link to="#" className="schedule-one__btn thm-btn">
+                        <Link
+                          to="https://makemypass.com/event/uyire-musical-event-day-2?ticket_id=336f1ed6-f1d8-4377-9434-575eeb735b24"
+                          className="schedule-one__btn thm-btn"
+                        >
                           Buy Ticket <span className="icon-arrow-right"></span>
                         </Link>
                       </div>
@@ -345,7 +348,10 @@ const ScheduleOne = () => {
                         </li>
                       </ul>
                       <div className="schedule-one__btn-box">
-                        <Link to="#" className="schedule-one__btn thm-btn">
+                        <Link
+                          to="https://makemypass.com/event/uyire-musical-event-day-2?ticket_id=49573f19-06ea-454f-9cd6-0a979511b901"
+                          className="schedule-one__btn thm-btn"
+                        >
                           Buy Ticket <span className="icon-arrow-right"></span>
                         </Link>
                       </div>
@@ -389,7 +395,10 @@ const ScheduleOne = () => {
                         </li>
                       </ul>
                       <div className="schedule-one__btn-box">
-                        <Link to="#" className="schedule-one__btn thm-btn">
+                        <Link
+                          to="https://makemypass.com/event/uyire-musical-event-day-2?ticket_id=3d2971f4-dfab-4c16-97e0-81b73178b3f9"
+                          className="schedule-one__btn thm-btn"
+                        >
                           Buy Ticket <span className="icon-arrow-right"></span>
                         </Link>
                       </div>
