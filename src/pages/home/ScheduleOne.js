@@ -108,7 +108,7 @@ const ScheduleOne = () => {
                         <Link to="">Sliver</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        ₹999/- <br /> Entry for 2 people, general admission
+                        ₹999/- <br /> Entry for 1 people, general admission
                       </p>
                     </div>
                     <div className="schedule-one__img">
