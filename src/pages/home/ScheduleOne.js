@@ -108,7 +108,7 @@ const ScheduleOne = () => {
                         <Link to="">Sliver</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        ₹999/- <br /> Entry for 1 people, general admission
+                        ₹799/- <br /> Entry for 1 people, general admission
                       </p>
                     </div>
                     <div className="schedule-one__img">
@@ -201,7 +201,7 @@ const ScheduleOne = () => {
                         <Link to="">Gold</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        ₹2,999/- <br /> Entry for 4 people, standard seating
+                        ₹2,499/- <br /> Entry for 4 people, standard seating
                       </p>
                     </div>
                     <div className="schedule-one__img">
@@ -364,8 +364,8 @@ const ScheduleOne = () => {
                         <Link to="#">Couple Pass</Link>
                       </h3>
                       <p className="schedule-one__text">
-                        First 100 tickets at ₹299!
-                        <br /> Then ₹399. Hurry!
+                        First 50 tickets at ₹499! Entry for two persons
+                        <br /> Then ₹599. Hurry!
                       </p>
                     </div>
                     <div className="schedule-one__img">
