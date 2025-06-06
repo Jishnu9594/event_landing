@@ -5,7 +5,7 @@ import GalleryImg1 from "../../assets/images/gallery/suraj21.jpg";
 import GalleryImg2 from "../../assets/images/gallery/Sarayu8.webp";
 import GalleryImg3 from "../../assets/images/gallery/nivin.jpeg";
 import GalleryImg4 from "../../assets/images/gallery/vyshnav.jpg";
-import GalleryImg5 from "../../assets/images/gallery/anu.png";
+// import GalleryImg5 from "../../assets/images/gallery/anu.png";
 // import GalleryImg6 from "../../assets/images/gallery/BabyJean2.jpg";
 import GalleryImg7 from "../../assets/images/gallery/gabry.jpeg";
 import GalleryImg9 from "../../assets/images/gallery/julis.jpg";
@@ -40,13 +40,13 @@ const galleryItems = [
     subtitle: "Singer and performer from Indian Idol fame",
     href: "/gallery-details",
   },
-  {
-    src: GalleryImg5,
-    alt: "Gallery 5",
-    title: "Anju Joseph ",
-    subtitle: " Popular playback singer known for her melodious voice",
-    href: "/gallery-details",
-  },
+  // {
+  //   src: GalleryImg5,
+  //   alt: "Gallery 5",
+  //   title: "Anju Joseph ",
+  //   subtitle: " Popular playback singer known for her melodious voice",
+  //   href: "/gallery-details",
+  // },
   // {
   //   src: GalleryImg6,
   //   alt: "Gallery 6",
